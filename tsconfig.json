@@ -14,15 +14,15 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@advancedantiskid/rustify": ["rustify/src/index.ts"],
       "rustify": ["src/index.ts"]
     },
-    "types": ["vitest"]
   },
   "files": [],
   "include": [],
   "references": [
     {
-      "path": "./tsconfig.lib.json"
+      "path": "./tsconfig.lib.json",
     },
     {
       "path": "./tsconfig.spec.json"

@@ -1,1 +1,1 @@
-export * from './lib/rustify';
+export * from './lib';
